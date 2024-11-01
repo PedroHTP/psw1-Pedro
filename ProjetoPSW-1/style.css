@@ -2,45 +2,59 @@ body {
     margin: 0px;
 }
 header {
-    text-align: center;
-    background-color: rgb(106, 135, 62);
-    margin-block: 0px;
-    padding: 10px;
+    background-color: rgb(142, 171, 99);
+    padding: 0.5%;
+    display: flex;
 }
 h1 {
     color: rgb(101, 35, 35);
-    margin: 3px;
+    margin: auto;
+    text-align: center;
 }
 div#links {
     display: flex;
     background-color: rgb(106, 118, 88);
+    padding: 0.3%;
 }
 a {
     margin: auto;
 }
 div h2 {
     font-size: 20px;
+    margin: auto;
 }
 main {
+    width: auto;
     display: flex;
+    align-content: center;
 }
 div#portfolio {
-    margin-inline-end: 100%;
     display: inline-flexbox;
+    flex-direction: column;
     background-color: rgb(121, 69, 69);
+    width: 25%;
 }
 div#portfolio img {
-    width: 50px;
-    padding: 30px;
+    width: 80%;
+    padding: 10%;
+    margin-top: 5%;
+}
+header img {
+    width: 10%;
 }
 div#texto {
-    width: 500px;
     background-color: rgb(150, 193, 193);
-    width: auto;
-    padding: 30px;
+    width: fit-content;
+    height: 100%;
 }
 div#t1 {
     background-color: azure;
-    width: 300px;
-    padding: 10px;
+    width: auto;
+    padding: 5%;
+    margin: 3%;
+}
+footer {
+    background-color: aquamarine;
+    padding: 0.01%;
+    flex-direction: column;
 }
