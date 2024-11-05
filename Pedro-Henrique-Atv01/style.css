@@ -12,6 +12,7 @@ header img {
     width: 10%;
 }
 header h1 {
+    font-size: 200%;
     color: rgb(64, 147, 63);
     margin: auto;
     text-align: center;
@@ -19,6 +20,7 @@ header h1 {
 }
 div#links {
     display: flex;
+    flex-wrap: wrap;
     background-image: linear-gradient(to right, rgb(173, 204, 153), rgb(118, 143, 82) 50%, rgb(173, 204, 153));
     padding: 0.2%;
     border-bottom: 1px black solid;
@@ -100,7 +102,7 @@ h1.t1 {
     text-shadow: 1px 1px 1px rgb(38, 51, 6);
 }
 div#redes {
-    margin: 1%;
+    margin-top: 1%;
     width: fit-content;
 }
 footer {
@@ -118,9 +120,19 @@ footer a {
     color: black;
 }
 footer a:hover {
-    color: rgb(94, 94, 94);
+    color: rgb(65, 65, 65);
     transition: transform 0.3s;
 }
 footer p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+#termo-logo {
+    padding: 0%;
+    display: inline-flex;
+    width: 100%;
+}
+#termo {
+    margin-left: 10%;
+    width: 100%;
+    text-align: center;
 }
