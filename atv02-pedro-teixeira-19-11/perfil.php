@@ -13,6 +13,8 @@
         $email = $_POST['email'];
         $senha = $_POST[''];
         $cor = $_POST[''];
+        $data_atual = date('d');
+        var_dump($data_atual)
     ?>
 </body>
 </html>

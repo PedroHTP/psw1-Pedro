@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(190deg, #102540, #26658C, #f27777, #f25757, #bf3b3b);
+    background-image: linear-gradient(190deg, #213c5e, #26658C, #f27777, #f25757, #bf3b3b);
 }
 
 header {
@@ -11,7 +11,7 @@ header {
     display: flex;
     text-align: center;
     justify-content: space-between;
-    background-color: #323232ab;
+    background-image: linear-gradient(90deg, #10254082, #0626399a, #1d396981, #38278b68, #10254082);
 }
 
 div#imagem-esquerda {
@@ -46,14 +46,14 @@ div#imagem-direita {
 
 #titulo-form {
     font-size: 2.5em;
-    color: rgb(42, 128, 27);
+    color: rgb(104, 110, 200);
     text-shadow: 2px 2px 2px black;
     align-content: center;
 }
 
 nav {
     width: 100%;
-    background-color: #000000a5;
+    background-color: #00114e5c;
     display: flex;
 }
 
@@ -76,15 +76,15 @@ ul {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-right: 2px solid rgb(159, 38, 38);
+    border-right: 2px solid rgb(28, 27, 106);
   }
 
   li a:hover:not(.ativo) {
-    background-color: #111;
+    background-color: #110640;
   }
   
   .ativo{
-    background-color: #881818;
+    background-color: #16134b;
   }
 
 main {
@@ -93,14 +93,31 @@ main {
     display: flex;
 }
 
+#cabeca-formulario {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        #texto-esquerda {
+            width: 50%;
+            justify-content: left;
+        }
+        #botao-direita {
+            display: flex;
+            width: 50%;
+            justify-content: right;
+        }
+}
+
 #titulo-secundario {
+    font-size: 2em;
     text-align: left;
     color: rgb(163, 0, 0);
 }
 
 input[type=text], [type=number], select, input[type=date], input[type=date], input[type=datetime], input[type=email], input[type=month], input[type=password], input[type=range], input[type=tel], input[type=time], input[type=week] {
     width: 100%;
-    padding: 12px 20px;
+    padding: 1% 1%;
     font-size: 1em;
     margin: 8px 0;
     display: inline-block;
@@ -109,8 +126,10 @@ input[type=text], [type=number], select, input[type=date], input[type=date], inp
     box-sizing: border-box;
 }
 
-input [type=color] {
-    width: 50px;
+#cor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 input[type=submit] {
@@ -124,6 +143,10 @@ input[type=submit] {
     border-radius: 4px;
     box-sizing: border-box;
     transition: transform 0.5s;
+}
+
+input[type=time] {
+    width: 11%;
 }
 
 input[type=submit]:hover {
@@ -148,7 +171,26 @@ input[type=reset]:hover {
     transform: scale(1.1);
 }
 
+input[type=button] {
+    background-color: rgb(0, 6, 129);
+    color: white;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: transform 0.5s;
+}
+
+input[type=button]:hover {
+    background-color: rgb(0, 5, 81);
+    transform: scale(1.1);
+}
+
 #alinhamento-de-botoes {
+    margin-top: 2%;
     display: flex;
     justify-content: center;
     gap: 1%;
@@ -163,8 +205,27 @@ input[type=reset]:hover {
     background-color: rgba(162, 174, 182, 0.699);
     justify-content: center;
 }
+
+.selecao {
+    text-align: left;
+}
+
+.radio {
+    background-color: #cccccc00;
+}
+
+.radio li {
+    float: none;
+    display: flex;
+    color: #190087;
+}
+
+.caixa-maior {
+    width: 1.5%;
+}
+
 label {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.5em;
     display: block;
     margin: 1%;
@@ -209,6 +270,9 @@ label {
     nav {
         flex-direction: column;
         width: 20%;
+         li {
+            width: 100%;
+         }
     }
     div#imagem-esquerda {
         width: 20%;
