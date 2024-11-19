@@ -84,6 +84,15 @@
                     <label for="appt">Que horário você vai dormir?:</label>
                     <input type="time" id="appt" name="appt">
 
+                    <label for="atendimento">Data e local de atendimento: </label>
+                    <input type="datetime-local" name="atendimento" id="idatendimento">
+
+                    <label for="atendimento">Data e local de atendimento: </label>
+                    <input type="datetime-local" name="atendimento" id="idatendimento">
+
+                    <label for="porcentagem">Selecione um ponto na linha: </label>
+                    <input type="range" name="porcentagem" id="idporcentagem">
+
                     <div class="selecao">
                         <label for="linguagem">▶ Qual sua liguagem WEB favorita?</label>
                         <ul class="radio">
@@ -124,9 +133,9 @@
                         </ul>
                     </div>
 
-                    <div class="selecao"> 
+                    <div class="selecao" > 
                         <label for="bio">Escreva uma bio para seu perfil</label>
-                        <textarea name="message" rows="10%" cols="70%" placeholder="Ex: Meu nome é Pedro Henrique e eu sou de ficção científica."></textarea>
+                        <textarea name="message" rows="4" placeholder="Ex: Meu nome é Pedro Henrique e eu sou de ficção científica."></textarea>
                     </div>
 
                     <div id="alinhamento-de-botoes">
@@ -142,14 +151,17 @@
             <a href="https://www.facebook.com" target="_blank"><img src="./imagens/facebook.png" alt="Logo do Facebook"></a>
             <a href="https://x.com/" target="_blank"><img src="./imagens/X-P.png" alt="Logo do X"></a>
             <a href="https://www.instagram.com/" target="_blank"><img src="./imagens/instagram-removebg-preview.png" alt="Logo do Instagram"></a>
-            <a href="https://www.youtube.com" target="_blank"><img src="./imagens/Youtube.png" alt="Logo do Youtube" style="margin-bottom: 0.34%;"></a>
+            <a href="https://www.youtube.com" target="_blank"><img src="./imagens/Youtube.png" alt="Logo do Youtube"></a>
         </div>
         <div id="termo-logo">
+            <div class="logo">
+            
+            </div>
             <div id="termo">
                 <p><a href="#">POLITÍCA DE PRIVACIDE</a> | <a href="#">TERMOS DE USO</a></p>
                 <p>&copy; 2024 - TODOS OS DIREITOS RESERVADOS A PEDRO HENRIQUE TEIXEIRA PIÃO</p>
             </div>
-            <div id="logo">
+            <div class="logo">
                 <img src="./imagens/PSW.png" alt="Logo de PSW" width="40%">
             </div>
         </div>   
