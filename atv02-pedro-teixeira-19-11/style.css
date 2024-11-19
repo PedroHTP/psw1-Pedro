@@ -1,4 +1,5 @@
 body {
+    width: 100%;
     margin: 0;
     flex-direction: column;
     justify-content: center;
@@ -249,6 +250,7 @@ div#redes {
     text-align: center;
     align-items: center;
     justify-content: center;
+    gap: 1%;
     padding: 0.7%;
 }
 footer {
@@ -260,8 +262,12 @@ footer {
 }
 
 div#redes a {
-    width: 3%;
+    width: 1.5%;
 }
+div#redes img {
+    width: 130%;
+}
+
 footer a {
     color: rgb(0, 0, 0);
 }
@@ -302,7 +308,7 @@ footer p {
 
 @media screen and (min-width: 1440px){
     footer img {
-        width: 50%;
+        width: 5%;
     }
 }
 
@@ -318,12 +324,13 @@ footer p {
     div#imagem-direita {
         width: 15%;
     }
-    footer img {
-        width: 70%;
+
+    div#redes a {
+        width: 3-%;
     }
-    div#redes img {
-        width: 2.5%;
-    }
+
+
+
     #alinhamento-de-botoes {
         gap: 2%;
     }
@@ -376,7 +383,6 @@ footer p {
         
     }
     div#redes img {
-
         width: 3.5%;
     }
     #termo-logo {
@@ -384,5 +390,19 @@ footer p {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+}
+@media screen and (max-width: 320px){
+    #titulo-secundario {
+        font-size: 1rem;
+    }
+    input[type="button"], input[type="submit"], input[type="reset"]{
+        padding: 2%;
+    }
+    nav {
+        width: 25%;
+        li {
+            font-size: 0.8rem;
+        }
     }
 }
