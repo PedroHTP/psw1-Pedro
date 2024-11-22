@@ -169,7 +169,7 @@
                 <p>&copy; 2024 - TODOS OS DIREITOS RESERVADOS A PEDRO HENRIQUE TEIXEIRA PIÃO</p>
             </div>
             <div class="logo">
-                <img src="./imagens/PSW.png" alt="Logo de PSW" width="40%">
+                <img src="./imagens/PSW.png" alt="Logo de PSW">
             </div>
         </div>
     </footer>

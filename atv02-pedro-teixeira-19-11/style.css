@@ -414,5 +414,10 @@ footer p {
             font-size: 0.8rem;
         }
     }
+    footer img {
+        width: 160%;
+    }
+    nav li {
 
+    }
 }
