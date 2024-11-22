@@ -19,7 +19,7 @@ div#imagem-esquerda {
     width: 13%;
     height: auto;
     align-content: center;
-    margin-left: 1%;
+    margin-left: 2%;
     div {
         display: flex;
         justify-content: left;
@@ -34,7 +34,7 @@ div#imagem-direita {
     width: 13%;
     height: auto;
     align-content: center;
-    margin-right: 1%;
+    margin-right: 2%;
     div {
         display: flex;
         justify-content: right;
@@ -135,7 +135,7 @@ input[type=text], [type=number], select, input[type=date], input[type=date], inp
 input[type=submit] {
     background-color: rgba(0, 136, 2, 0.749);
     color: white;
-    padding: 12px 20px;
+    padding: 1%;
     font-size: 1rem;
     margin: 8px 0;
     display: inline-block;
@@ -151,7 +151,6 @@ input[type=time] {
 
 [type=datetime-local] {
     width: 40%;
-    height: 50%;
 }
 
 input[type=submit]:hover {
@@ -161,7 +160,7 @@ input[type=submit]:hover {
 input[type=reset] {
     background-color: rgba(136, 0, 0, 0.749);
     color: white;
-    padding: 12px 20px;
+
     font-size: 1rem;
     margin: 8px 0;
     display: inline-block;
@@ -179,9 +178,8 @@ input[type=reset]:hover {
 input[type=button] {
     background-color: rgb(0, 6, 129);
     color: white;
-    padding: 12px 20px;
+    padding: 2% 3%;
     font-size: 1rem;
-    margin: 8px 0;
     display: inline-block;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -353,7 +351,6 @@ footer p {
         padding: 1%;
         label {
             padding: 0.5%;
-            width: fit-content;
         }
     }
     #titulo-form {
@@ -380,19 +377,20 @@ footer p {
         padding: 1%;
     }
 }
-@media screen and (max-width: 425px){
+@media screen and (max-width: 426px){
     #titulo-form {
         font-size: 1.2em;
     }
     #titulo-secundario {
-        font-size: 1.1rem;
+        font-size: 1rem;
     }
-    footer {
-        justify-content: center;
-        
+
+    div#redes {
+        gap: 3%;
     }
     div#redes img {
-        width: 3.5%;
+        width: 150%;
+        align-items: center;
     }
     #termo-logo {
         display: flex;
@@ -400,13 +398,39 @@ footer p {
         justify-content: center;
         align-items: center;
     }
+    footer img {
+        width: 130%;
+    }
+    footer {
+        font-size: 70%;
+    }
+    label {
+        font-size: 80%;
+    }
+    input[type=time] {
+        width: 50%;
+    }
+    
+    input[type=datetime-local] {
+        font-size: 100%;
+        width: 90%;
+    }
+    input[type=button], input[type=submit], input[type=reset] {
+        padding: 3% 5%;
+    }
+    #alinhamento-de-botoes {
+        gap: 3%;
+    }
 }
-@media screen and (max-width: 375px){
+@media screen and (max-width: 376px){
     #titulo-secundario {
         font-size: 1rem;
     }
     input[type="button"], input[type="submit"], input[type="reset"]{
         padding: 2%;
+    }
+    #titulo-secundario {
+        font-size: 0.8rem;
     }
     nav {
         width: 25%;
@@ -415,9 +439,32 @@ footer p {
         }
     }
     footer img {
-        width: 160%;
+        width: 130%;
     }
     nav li {
+        font-size: 1rem;
+    }
 
+    #form-ajuste {
+        flex-direction: column;
+        #form-direito, #form-esquerdo {
+            width: 100%;
+        }
+        label {
+            font-size: 90%;
+            width: 90%;
+        }
+        input {
+            width: 80%;
+        }
+        input[type=color] {
+            width: 10%;
+        }
+        input[type=radio], input[type=checkbox] {
+            width: 10%;
+        }
+    }
+    #titulo-form {
+        font-size: 1rem;
     }
 }
