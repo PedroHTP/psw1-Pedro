@@ -207,6 +207,10 @@ input[type=button]:hover {
     gap: 1%;
 }
 
+div#form-ajuste {
+    display: flex;
+}
+
 #formulario {
     text-align: center;
     padding: 2%;
@@ -242,7 +246,7 @@ label {
     margin: 1%;
 }
 div.selecao textarea {
-    width: 100%;
+    width: 50%;
   }
 
 div#redes {
@@ -326,10 +330,8 @@ footer p {
     }
 
     div#redes a {
-        width: 3-%;
+        width: 3%;
     }
-
-
 
     #alinhamento-de-botoes {
         gap: 2%;
