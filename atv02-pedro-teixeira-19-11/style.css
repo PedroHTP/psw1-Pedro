@@ -242,7 +242,7 @@ label {
     margin: 1%;
 }
 div.selecao textarea {
-    width: 70%;
+    width: 85%;
   }
 
 div#redes {
@@ -304,6 +304,9 @@ footer p {
     footer img {
         width: 50%;
     }
+    #formulario label {
+        font-size: 100%;
+    }
 }
 
 @media screen and (min-width: 1440px){
@@ -331,6 +334,12 @@ footer p {
 
     #alinhamento-de-botoes {
         gap: 2%;
+    }
+    div#redes img {
+        width: 90%;
+    }
+    footer img {
+        width: 75%;
     }
 }
 
@@ -371,7 +380,7 @@ footer p {
         padding: 1%;
     }
 }
-@media screen and (max-width: 428px){
+@media screen and (max-width: 425px){
     #titulo-form {
         font-size: 1.2em;
     }
@@ -392,7 +401,7 @@ footer p {
         align-items: center;
     }
 }
-@media screen and (max-width: 320px){
+@media screen and (max-width: 375px){
     #titulo-secundario {
         font-size: 1rem;
     }
@@ -405,4 +414,5 @@ footer p {
             font-size: 0.8rem;
         }
     }
+
 }

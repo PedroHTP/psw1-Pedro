@@ -136,18 +136,18 @@
                                 </ul>
                             </div>
                             <div class="selecao">
-                                <label for="bio">Escreva uma bio para seu perfil</label>
+                                <label for="bio">Escreva uma bio para seu perfil: </label>
                                 <textarea name="message" rows="4"
                                     placeholder="Ex: Meu nome é Pedro Henrique e eu sou fã de ficção científica."></textarea>
-                            </div>
-                            <div id="alinhamento-de-botoes">
-                                <input type="submit" value="Concluir">
-                                <input type="reset" value="Reiniciar Formulário">
                             </div>
                         </form>
                     </div>
                 </div>
-            </div>
+                <div id="alinhamento-de-botoes">
+                                <input type="submit" value="Concluir">
+                                <input type="reset" value="Reiniciar Formulário">
+                            </div>
+                </div>
         </main>
     </div>
     <footer>
